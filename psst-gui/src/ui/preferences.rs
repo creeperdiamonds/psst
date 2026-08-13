@@ -53,7 +53,6 @@ where
 pub fn account_setup_widget() -> impl Widget<AppState> {
     Scroll::new(
     Flex::column()
-        .must_fill_main_axis(true)
         .cross_axis_alignment(CrossAxisAlignment::Start)
         .with_spacer(theme::grid(2.0))
         .with_child(
